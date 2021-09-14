@@ -1,0 +1,29 @@
+.logo {
+    width: 40px;
+    height: auto;
+}
+
+.intro--options > a {
+    color: #6d6d6d;
+}
+
+.contact {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("/assets/img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width:540px){
+    .perspective--modalview {
+        .container {
+            display: none;
+        }
+        .outer-nav {
+            left: 0;
+            right: 0;
+        }
+
+    }
+
+}

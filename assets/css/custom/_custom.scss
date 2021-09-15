@@ -23,7 +23,19 @@
             left: 0;
             right: 0;
         }
-
     }
+}
 
+@media screen and (max-width: 600px) and (max-height: 750px){
+    .intro--small-devices {
+        position: absolute;
+        left: 0;
+        right: -10%;
+        top: 0;
+        bottom: 0;
+        background-image: url("/assets/img/dark-moon.png");
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: 20vw -100px;
+    }
 }
